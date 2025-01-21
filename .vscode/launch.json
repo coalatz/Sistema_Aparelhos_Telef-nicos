@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Servidor",
+            "request": "launch",
+            "mainClass": "com.projeto.sd.Servidor",
+            "projectName": "projetosd"
+        },
+        {
+            "type": "java",
+            "name": "Cliente",
+            "request": "launch",
+            "mainClass": "com.projeto.sd.Cliente",
+            "projectName": "projetosd"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TesteProdutosOutputStream<projetosd>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.projeto.sd.TesteProdutosOutputStream",
+            "projectName": "projetosd",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
