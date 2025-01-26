@@ -1,0 +1,21 @@
+Relatório
+
+Atividade 01
+1. Creie as classes e subclasses do meu projeto:
+Produto abstract, atributos: nome, preço e quantidade. 
+Subclasses: Celular, Capa e Pelicula.
+
+2. Criação do ProdutosOutputStream:
+ProdutosOutputStream, vaienviar um conjunto de produtos através de um OutputStream de destino.
+
+3. Implementação do Servidor e Cliente:
+O servidor foi criado para aguardar a conexão de um cliente por meio de um socket TCP.
+O servidor recebe os dados dos produtos enviados pelo cliente e os exibe no console, apresentando o nome e o preço de cada produto.
+O cliente envia os produtos para o servidor, utilizando a classe ProdutosOutputStream para formatação e envio dos dados.
+
+
+Atividade 02
+Implementação
+1.A classe PessoasInputStream herda de InputStream e implementa o método lerDados(), responsável por ler os dados dos produtos o contrutor recebe um InputStream como parâmetro.
+
+2.ProdutosInputStream: vai fazer a leitura dos dados e foi testada com entradas padrão, arquivos e conexões TCP.
