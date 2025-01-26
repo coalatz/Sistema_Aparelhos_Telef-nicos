@@ -7,13 +7,9 @@ import java.io.InputStream;
 public class ProdutosInputStream extends InputStream {
 
     private final DataInputStream dataIn;
-    private String produtos[];
-    private float precos[];
 
-public ProdutosInputStream(InputStream origem, String[] produtos, float[] preco) {
+public ProdutosInputStream(InputStream origem) {
         this.dataIn = new DataInputStream(origem);
-        this.produtos = produtos;
-        this.precos = preco;
     }
 
     @Override

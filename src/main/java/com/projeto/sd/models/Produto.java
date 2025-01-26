@@ -1,6 +1,8 @@
 package com.projeto.sd.models;
 
-public abstract class Produto {
+import java.io.Serializable;
+
+public abstract class Produto implements Serializable {
     
     private String modelo;
     private Float preco;

@@ -17,10 +17,7 @@ public class Servidor {
 
                 int numProdutos = dataIn.readInt();
 
-                String[] produtos = new String[numProdutos];
-                float[] precos = new float[numProdutos];
-
-                ProdutosInputStream prodInt = new ProdutosInputStream(dataIn, produtos, precos);
+                ProdutosInputStream prodInt = new ProdutosInputStream(dataIn);
                 prodInt.receberDados();
 
             }
