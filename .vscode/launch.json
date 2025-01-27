@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClienteSerializado",
+            "request": "launch",
+            "mainClass": "com.projeto.sd.questao03.ClienteSerializado",
+            "projectName": "projetosd"
+        },
+        {
+            "type": "java",
+            "name": "ServeSerializado",
+            "request": "launch",
+            "mainClass": "com.projeto.sd.questao03.ServeSerializado",
+            "projectName": "projetosd"
+        },
+        {
+            "type": "java",
+            "name": "Cliente",
+            "request": "launch",
+            "mainClass": "com.projeto.sd.questao0102.Cliente",
+            "projectName": "projetosd"
+        },
+        {
+            "type": "java",
+            "name": "Servidor",
+            "request": "launch",
+            "mainClass": "com.projeto.sd.questao0102.Servidor",
+            "projectName": "projetosd"
+        },
+        {
+            "type": "java",
             "name": "Servidor",
             "request": "launch",
             "mainClass": "com.projeto.sd.Servidor",

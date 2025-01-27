@@ -1,4 +1,4 @@
-package com.projeto.sd;
+package com.projeto.sd.questao0102;
 
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;
