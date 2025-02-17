@@ -1,6 +1,6 @@
 Relatório
 
-Atividade 01
+Atividade 01 relatório da atividade 02 está na pasta atv02
 1. Creie as classes e subclasses do meu projeto:
 Produto abstract, atributos: nome, preço e quantidade. 
 Subclasses: Celular, Capa e Pelicula.
