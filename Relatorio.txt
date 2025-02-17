@@ -6,7 +6,8 @@ Produto abstract, atributos: nome, preço e quantidade.
 Subclasses: Celular, Capa e Pelicula.
 
 2. Criação do ProdutosOutputStream:
-ProdutosOutputStream, vaienviar um conjunto de produtos através de um OutputStream de destino.
+ProdutosOutputStream, vaienviar um conjunto de produtos através de um OutputStream de destino, a partir dai os dados enviados seram pelo output para o cliente.
+O CLiente instancia a classe ProdutosOutputStream e chama seu metodo enviarDados();
 
 3. Implementação do Servidor e Cliente:
 O servidor foi criado para aguardar a conexão de um cliente por meio de um socket TCP.
@@ -15,7 +16,13 @@ O cliente envia os produtos para o servidor, utilizando a classe ProdutosOutputS
 
 
 Atividade 02
-Implementação
-1.A classe PessoasInputStream herda de InputStream e implementa o método lerDados(), responsável por ler os dados dos produtos o contrutor recebe um InputStream como parâmetro.
 
-2.ProdutosInputStream: vai fazer a leitura dos dados e foi testada com entradas padrão, arquivos e conexões TCP.
+1. PordutoInputStream
+A classe PrdutoInputStream herda de InputStream e implementa o método lerDados(), responsável por ler os dados dos produtos o contrutor recebe um InputStream como parâmetro.
+O serivodr vai Instanciar o ProdutosInputStream e usar seu metodo ReceberDados();
+ProdutosInputStream: vai fazer a leitura dos dados e foi testada com entradas padrão, arquivos e conexões TCP.
+
+Atividade 03
+1.Serializacao
+Criei um servidor e cliente novos para o cliente enviar os dado serializados para o servidor,
+o servidor vai recuperar esses dados fazer o processamento e enviar novamente para o cleinte.
