@@ -1,3 +1,5 @@
+Relatório atividade 02
+
 Nessa atividade, consegui utilizar o Java RMI, que vai possibilitar a chamada de métodos remotos, neste caso, no modelo cliente-servidor.
 Criei uma interface com a mesma estrutura de uma interface local, só que estende Remote, assim criando uma interface remota.
 Em seguida, criei uma classe para implementação chamada VendasImpl, que vai implementar a minha interface e estender a classe UnicastRemoteObject,
