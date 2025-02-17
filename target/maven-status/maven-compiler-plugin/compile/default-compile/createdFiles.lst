@@ -1,6 +1,5 @@
 com\projeto\sd\models\PowerBank.class
+com\projeto\sd\models\Celular.class
 com\projeto\sd\models\Capa.class
 com\projeto\sd\models\Produto.class
-com\projeto\sd\models\Celular.class
-com\projeto\sd\ProdutosOutputStream.class
 com\projeto\sd\models\Pelicula.class

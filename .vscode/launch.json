@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClienteRmi",
+            "request": "launch",
+            "mainClass": "com.projeto.sd.ClienteRmi",
+            "projectName": "projetosd"
+        },
+        {
+            "type": "java",
+            "name": "ServerRmi",
+            "request": "launch",
+            "mainClass": "com.projeto.sd.ServerRmi",
+            "projectName": "projetosd"
+        },
+        {
+            "type": "java",
             "name": "ClienteSerializado",
             "request": "launch",
             "mainClass": "com.projeto.sd.questao03.ClienteSerializado",

@@ -4,12 +4,13 @@ import java.io.Serializable;
 
 public abstract class Produto implements Serializable {
     
+    
     private String modelo;
     private Float preco;
     private int quantidade;
     private String marca;
 
-    public Produto(String modelo, Float preco, int quantidade, String marca) {
+    public Produto( String modelo, Float preco, int quantidade, String marca) {
         this.modelo = modelo;
         this.preco = (float)preco;
         this.quantidade = quantidade;

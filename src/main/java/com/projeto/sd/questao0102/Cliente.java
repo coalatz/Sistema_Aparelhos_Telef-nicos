@@ -17,12 +17,12 @@ public class Cliente {
 
             Produto[] produtos = {
                 new Celular("iPhone 12", 59.99f, 1, "Apple", 512, 8, "IOS"),
+                new Celular("iPhone 15", 59.99f, 1, "Apple", 512, 8, "IOS"),
                 new Capa("Capa Silicone", 59.99f, 1, "Gcase", "Iphone 12", "Silicone"),
                 new Pelicula("Pelicula Vidro", 39.99f, 1, "Vidros", "Iphone 12", "Vidro"),
             };
 
             try (DataOutputStream dataOut = new DataOutputStream(socket.getOutputStream())) {
-                dataOut.writeInt(produtos.length);
 
                 ProdutosOutputStream prodOut = new ProdutosOutputStream(produtos, dataOut);
                 prodOut.enviarDados();

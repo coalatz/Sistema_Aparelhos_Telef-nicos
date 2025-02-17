@@ -9,7 +9,7 @@ public class Celular extends Produto{
     public Celular (
         String modelo, Float preco, int quantidade, String marca,
         int armazenamento, int ram, String sistemaOperacional ) {
-            super(modelo, preco, quantidade, marca);
+            super( modelo, preco, quantidade, marca);
             this.armazenamento = armazenamento;
             this.ram = ram;
             this.sistemaOperacional = sistemaOperacional;

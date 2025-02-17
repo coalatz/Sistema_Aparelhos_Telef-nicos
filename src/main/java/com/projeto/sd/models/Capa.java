@@ -5,7 +5,7 @@ public class Capa extends Produto {
     private String celularCompativel;
     private String material;
 
-    public Capa(String modelo, Float preco, int quantidade, String marca, String celularCompativel, String material) {
+    public Capa( String modelo, Float preco, int quantidade, String marca, String celularCompativel, String material) {
         super(modelo, preco, quantidade, marca);
         this.celularCompativel = celularCompativel;
         this.material = material;

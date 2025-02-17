@@ -8,7 +8,7 @@ public class ProdutosInputStream extends InputStream {
 
     private final DataInputStream dataIn;
 
-public ProdutosInputStream(InputStream origem) {
+    public ProdutosInputStream(InputStream origem) {
         this.dataIn = new DataInputStream(origem);
     }
 
@@ -16,17 +16,15 @@ public ProdutosInputStream(InputStream origem) {
     public int read() throws IOException {
         return dataIn.read();
     }
-    
-    
-    
+
     public void receberDados() throws IOException {
-        
+
         int numeroProdutos = dataIn.readInt();
         System.out.println("Número de produtos: " + numeroProdutos);
 
         String[] produtos = new String[numeroProdutos];
-        Double[] precos = new Double[numeroProdutos];    
-        
+        Double[] precos = new Double[numeroProdutos];
+
         for (int i = 0; i < numeroProdutos; i++) {
             int nomeLength = dataIn.readInt();
             byte[] nomeBytes = new byte[nomeLength];
@@ -41,7 +39,7 @@ public ProdutosInputStream(InputStream origem) {
             System.out.println("  Nome: " + nome);
             System.out.println("  Preço: " + preco);
         }
-        
-        }
-    
+
+    }
+
 }
